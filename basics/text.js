@@ -1,6 +1,21 @@
 "use strict" //treat all js code as newer version
-console.log("hello")
+//console.log("hello")
 var accountno=12345
-accountid="vk@123"
-console.table([accountno,accountid])
+let accountid="vk@123"
+//console.table([accountno,accountid])
 //alert(3+3)//will give error as we are using nodejs not browser
+let num="44abc"
+let strval=Number(num)+22
+//console.log(strval)
+let h=undefined
+//console.log(h)
+let h1=Number(h)
+//console.log(h1)
+let a=1
+//console.log(Boolean(a))
+let b=""
+//console.log(Boolean(b))
+let c="hello"
+//console.log(Boolean(c))
+let d=3
+console.log(Boolean(d))
