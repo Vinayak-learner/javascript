@@ -34,4 +34,20 @@ let age=21
 //console.log(`My name is ${name} and my age is ${age}`)
 const gamename=new String('hello')
 //console.log(game.__proto__)
-console.log(gamename.length)
+//console.log(gamename.length)
+let max=20
+let min=10
+//console.log(Math.floor(Math.random()*(10)+1+(max-min)))
+let mydate=new Date()
+/* console.log(mydate)
+console.log(mydate.toString())
+console.log(mydate.toDateString())
+console.log(mydate.toLocaleString()) */
+let date=new Date(2026,9,24)
+//console.log(date.toDateString())
+let arr=[1,2,3,4]
+//console.log(arr)
+let arr1=new Array(2,4,7,8)
+/* console.log(arr1)
+console.log(typeof arr)
+console.log(typeof arr1) */
