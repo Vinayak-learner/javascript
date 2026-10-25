@@ -51,3 +51,13 @@ let arr1=new Array(2,4,7,8)
 /* console.log(arr1)
 console.log(typeof arr)
 console.log(typeof arr1) */
+let arr3=[1,2,3,4]
+let arr2=[6,7,8]
+let arr4=arr3.concat(arr2)
+//console.log(arr4)
+let arr5=[1,2,[3,4,5],[6,[7,8]]]
+let arr6=arr5.flat()
+let arr9=arr5.flat(0)
+let arr7=arr5.flat(1)
+let arr8=arr5.flat(2)
+console.log(arr6,arr9,arr7,arr8)
