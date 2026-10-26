@@ -60,4 +60,21 @@ let arr6=arr5.flat()
 let arr9=arr5.flat(0)
 let arr7=arr5.flat(1)
 let arr8=arr5.flat(2)
-console.log(arr6,arr9,arr7,arr8)
+//console.log(arr6,arr9,arr7,arr8)
+let obj2=new Object()
+obj2.id="123abc"
+obj2.name="Rahul"
+//console.log(obj2)
+let obj3={
+    name:{
+        first_name:"Vinayak",
+        last_name:"Varshney"
+    },
+    rollno:41
+}
+//console.log(obj3.name.first_name)
+let obj4={1:"a",2:"b"}
+let obj5={3:"c",4:"d"}
+let obj6=Object.assign({},obj4,obj5)
+/* console.log(obj4)
+console.log(obj6) */
