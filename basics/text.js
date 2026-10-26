@@ -78,3 +78,6 @@ let obj5={3:"c",4:"d"}
 let obj6=Object.assign({},obj4,obj5)
 /* console.log(obj4)
 console.log(obj6) */
+console.log(obj3.name)
+const {name}=obj3
+console.log(name)
