@@ -78,6 +78,26 @@ let obj5={3:"c",4:"d"}
 let obj6=Object.assign({},obj4,obj5)
 /* console.log(obj4)
 console.log(obj6) */
-console.log(obj3.name)
-const {name}=obj3
-console.log(name)
+//console.log(obj3.name)
+//const {name}=obj3
+//console.log(name)
+const arr_func=()=>{
+    console.log(this)
+}
+//arr_func()
+function reg_func(){
+    console.log(this)
+}
+//reg_func()
+const arrow_fun=(num1,num2)=>{
+    return num1+num2
+}
+const arrow_func2=(num1,num2)=>(num1+num2)
+//console.log(arrow_fun(1,2))
+//console.log(arrow_func2(3,4))
+(function hello(){
+    console.log("hello")
+})();
+((nam)=>{
+    console.log(nam)
+})("hitesh")
