@@ -102,4 +102,6 @@ const arrow_func2=(num1,num2)=>(num1+num2)
     console.log(nam)
 })("hitesh") */
 let var1=null??undefined
-console.log(var1)
+//console.log(var1)
+let var2=100
+var2<80 ? console.log("less than 80"):console.log("more than 80")
