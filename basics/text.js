@@ -98,6 +98,8 @@ const arrow_func2=(num1,num2)=>(num1+num2)
 (function hello(){
     console.log("hello")
 })();
-((nam)=>{
+/* ((nam)=>{
     console.log(nam)
-})("hitesh")
+})("hitesh") */
+let var1=null??undefined
+console.log(var1)
